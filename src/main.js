@@ -3,7 +3,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import { toRomans } from './roman-numerals';
+import { toRomans } from './roman-numerals.js';
 
 $(document).ready(function(){
   $("form#userInput").submit(function(event){
